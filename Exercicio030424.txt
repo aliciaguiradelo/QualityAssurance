@@ -1,6 +1,8 @@
 1. (50,10,10) Preço final = 49.50000000000001
    (50,0,10) Preço final =  55.00000000000001
 
+OK
+
 2. function verificarElegibilidadeDesconto(idade, renda) { 
 	if (idade >= 16 && renda >= 1500) { 
 		return "Elegível para desconto"; 
@@ -14,6 +16,9 @@
 	4. idade >= 16 e renda < 1500
 	4. idade >= 16 e renda >= 1500
 
+ok
+
+
 3. validar idade entre 16 e 66
   
   0-------------16-------------66-------------?
@@ -24,6 +29,8 @@
 	3. 16 < idade < 66
 	4. idade = 66
 	5. idade > 66
+
+ok
 
 4. valor >= 1500
 	desconto 10%
