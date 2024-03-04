@@ -1,0 +1,52 @@
+1. (50,10,10) Preço final = 49.50000000000001
+   (50,0,10) Preço final =  55.00000000000001
+
+2. function verificarElegibilidadeDesconto(idade, renda) { 
+	if (idade >= 16 && renda >= 1500) { 
+		return "Elegível para desconto"; 
+	} else { 
+		return "Não elegível para desconto"; } 
+	} 
+ 	
+	1. idade < 16 e renda < 1500
+	2. idade < 16 e renda >= 1500
+	3. idade != 16 e renda < 1500
+	4. idade >= 16 e renda < 1500
+	4. idade >= 16 e renda >= 1500
+
+3. validar idade entre 16 e 66
+  
+  0-------------16-------------66-------------?
+	1	2	3	4	5
+	
+	1. idade <16
+	2. idade = 16
+	3. 16 < idade < 66
+	4. idade = 66
+	5. idade > 66
+
+4. valor >= 1500
+	desconto 10%
+   cliente vip 
+	desconto 15%
+
+    valor |  <1500  |  =1500  |  >1500
+    
+vip  S    |   15%   |    15%  |    15%
+vip  N    |    0%   |    10%  |    10%
+
+
+
+5.	CAMINHO FELIZ
+	1. S1 --> SET  --> S3
+	2. S3 --> MODE --> S1
+	3. S1 --> MODE --> S2
+	4. S2 --> MODE --> S1
+	5. S2 --> SET  --> S4
+	6. S4 --> MODE --> S2
+ 
+	CAMINHO TRISTE :(
+	1. S4 --> SET
+	2. S3 --> SET
+
+ 
